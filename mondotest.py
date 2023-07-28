@@ -18,6 +18,11 @@ d = {
     "email":"simmi@ineuron.ai",
     "surname":"singh"
 }
+d = {
+    "name":"krishna",
+    "email":"krishna@ineuron.ai",
+    "surname":"patil"
+}
 db=client['mondotest']
 coll = db['test1']
 coll.insert_one(d )
